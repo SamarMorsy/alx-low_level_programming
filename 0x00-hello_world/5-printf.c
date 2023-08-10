@@ -1,9 +1,9 @@
 /**
- * main - Entry point
+ * main - Entry poit
  *
- * Descreption: A c program that print text using print f
+ * Descreption: print using print f
  *
- * Return: alwayes 0 (Success)
+ * Return: Alwayes 0 (Success)
 */
 #include<stdio.h>
 int main(void)

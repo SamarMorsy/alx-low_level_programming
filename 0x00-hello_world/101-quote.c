@@ -8,8 +8,9 @@
 #include<stdio.h>
 #include<unistd.h>
 int main(void)
-{	
-	char myChar[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";	
-	write(1,myChar,59);
+{
+	char myC[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+
+	write(1, myCr, 59);
 	return (1);
 }

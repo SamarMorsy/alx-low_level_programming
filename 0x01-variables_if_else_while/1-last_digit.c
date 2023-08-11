@@ -1,0 +1,30 @@
+/**
+ * main - Entry point
+ *
+ * descreption: find the latest digit of a givin number
+ *
+ * Return: always 0 (success)
+*/
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
+int main(void)
+{
+	int n;
+
+	int lastDigit;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	lastDigit = n % 10;
+	if (lastdigit > 5)
+		printf("Last digit of %d is %d and is greater than 5", n, lastDigit);
+	else if (lastDigit == 0)
+		printf("Last digit of %d is %d and is 0", n, lastDigit);
+	else if (lastDigit < 6 && != 0)
+		printf("Last digit of %d is %d and is greater than 5", n, lastDigit);
+	return (0);
+}

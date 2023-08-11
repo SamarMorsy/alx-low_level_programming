@@ -6,8 +6,10 @@
  * return 1 (not success)
 */
 #include<stdio.h>
+#include<unistd.h>
 int main(void)
-{
-	write("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
+{	
+	char myChar[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";	
+	write(1,myChar,59);
 	return (1);
 }

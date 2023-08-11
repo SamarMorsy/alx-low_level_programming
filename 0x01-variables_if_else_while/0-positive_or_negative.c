@@ -5,6 +5,7 @@
  *
  * Return: always 0 (success)
 */
+#include<stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */

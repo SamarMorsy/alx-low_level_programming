@@ -3,7 +3,7 @@
  *
  * Descreption: using write to print
  *
- * return 1 (not success)
+ * Return: 1 (not success)
 */
 #include<stdio.h>
 #include<unistd.h>

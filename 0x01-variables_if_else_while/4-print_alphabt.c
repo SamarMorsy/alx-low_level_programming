@@ -10,10 +10,18 @@ int main(void)
 {
 	int i;
 
+	int e = (int)'e';
+
+	int q = (int)'q';
+
+	int x = (i == e);
+
+	int y = (i == q);
+
 	for (i = 97; i < 123; i++)
 	{
-		if (!(i == (int)'q' || i == (int)'e'))
-				putchar(i);
+		if (!(x || y))
+			putchar(i);
 	}
 	putchar('\n');
 	return (0);

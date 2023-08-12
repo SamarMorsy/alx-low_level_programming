@@ -10,17 +10,9 @@ int main(void)
 {
 	int i;
 
-	int e = (int)'e';
-
-	int q = (int)'q';
-
-	int x = (i == e);
-
-	int y = (i == q);
-
 	for (i = 97; i < 123; i++)
 	{
-		if (!(x || y))
+		if (!((int)'e' || (int)'q'))
 			putchar(i);
 	}
 	putchar('\n');

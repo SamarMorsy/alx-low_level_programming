@@ -1,8 +1,9 @@
+
 /**
   *main - prints two pairs of two-digit numbers
-  *Return: 0 alwayw ssuccess
+  *Return: 0
 */
-#include <stdio.h>
+#includ <stdio.h>
 int main(void)
 {
     int i, j;

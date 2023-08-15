@@ -1,6 +1,10 @@
 #include "main.h"
 /**
- * print alphapet
+ * print_alphabet - function to print a-z
+ *
+ * Description: print_alphabet
+ *
+ * Return: void
 */
 
 void print_alphabet(void)

@@ -34,5 +34,5 @@ int main(void)
 
 	sum = _sum(1024);
 	printf("%d", sum);
-
+	return (0);
 }

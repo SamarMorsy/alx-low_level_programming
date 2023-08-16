@@ -7,18 +7,22 @@
 #include <stdio.h>
 void print_times_table(int n)
 {
-	int i, j;
-
-	for (i = 0; i <= n; i++)
+	do
 	{
-		printf("0");
-		for (j = 1; j <= n; j++)
+		int i, j;
+		for (i = 0; i <= n; i++)
 		{
-			if ((i * j) > 9)
-				printf(",  %d", (i * j));
-			else
-				printf(",   %d", (i * j));
+			printf("0");
+			for (j = 1; j <= n; j++)
+			{
+				if ((i * j) > 9)
+					printf(",  %d", (i * j));
+				else if ((i * j) > 99)
+					printf(", %d", (i * j));
+				else
+					printf(",   %d", (i * j));
+			}
+			printf("\n");
 		}
-		printf("\n");
-	}
+	} while((n > 0) && (n < 15));
 }

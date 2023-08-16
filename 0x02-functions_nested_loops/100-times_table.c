@@ -10,6 +10,7 @@ void print_times_table(int n)
 	if ((n > 0) && (n < 15))
 	{
 		int i, j;
+
 		for (i = 0; i <= n; i++)
 		{
 			printf("0");
@@ -19,11 +20,10 @@ void print_times_table(int n)
 					printf(",  %d", (i * j));
 				else if ((i * j) > 99)
 					printf(", %d", (i * j));
-				else 
+				else
 					printf(",   %d", (i * j));
 			}
 			printf("\n");
 		}
 	}
-	
 }

@@ -16,7 +16,7 @@ void  _50_fibonacci(void)
 	for (i = 3; i <= 50; i++)
 	{
 		if (i == 50)
-			print("%d\n", current);
+			printf("%d\n", current);
 		else
 			printf("%d, ", current);
 		first = second;

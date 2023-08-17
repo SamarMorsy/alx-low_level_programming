@@ -11,14 +11,14 @@ void  _50_fibonacci(void)
 	long int second = 2;
 	long int current = first + second;
 
-	printf("%d, ", first);
-	printf("%d, ", second);
+	printf("%lu, ", first);
+	printf("%lu, ", second);
 	for (i = 3; i <= 50; i++)
 	{
 		if (i == 50)
-			printf("%d\n", current);
+			printf("%lu\n", current);
 		else
-			printf("%d, ", current);
+			printf("%lu, ", current);
 		first = second;
 		second = current;
 		current = first + second;

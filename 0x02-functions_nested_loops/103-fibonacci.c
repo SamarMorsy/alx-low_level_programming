@@ -21,7 +21,7 @@ int main(void)
 		second = current;
 		current = first + second;
 		counter++;
-	} while (counter < 4000000);
+	} while (current <= 4000000);
 	printf("%lu\n", sum);
 	return (0);
 }

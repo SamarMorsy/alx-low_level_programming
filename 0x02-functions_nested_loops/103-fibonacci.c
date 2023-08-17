@@ -20,7 +20,7 @@ int main(void)
 		first = second;
 		second = current;
 		current = first + second;
-		counte++;
+		counter++;
 	} while (counter < 4000000);
 	printf("%lu\n", sum);
 	return (0);

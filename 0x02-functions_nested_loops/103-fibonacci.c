@@ -9,7 +9,6 @@ int main(void)
 	long int sum = 2;
 	long int first = 1;
 	long int second = 2;
-	long int counter = 3;
 	long int current = first + second;
 
 	do {
@@ -20,7 +19,6 @@ int main(void)
 		first = second;
 		second = current;
 		current = first + second;
-		counter++;
 	} while (current <= 4000000);
 	printf("%lu\n", sum);
 	return (0);

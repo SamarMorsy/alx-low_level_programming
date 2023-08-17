@@ -32,4 +32,5 @@ void  _50_fibonacci(void)
 int main(void)
 {
 	_50_fibonacci();
+	return (0);
 }

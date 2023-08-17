@@ -7,9 +7,9 @@
 void  _50_fibonacci(void)
 {
 	int i;
-	int first = 1;
-	int second = 2;
-	int current = first + second;
+	long int first = 1;
+	long int second = 2;
+	long int current = first + second;
 
 	printf("%d, ", first);
 	printf("%d, ", second);

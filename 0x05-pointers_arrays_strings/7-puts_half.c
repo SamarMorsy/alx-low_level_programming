@@ -13,7 +13,7 @@ void puts_half(char *str)
 	while (str[length] != '\0')
 		length++;
 	if (length % 2 == 0)
-		strart_index = length / 2;
+		start_index = length / 2;
 	else
 		start_index = (length - 1) / 2;
 

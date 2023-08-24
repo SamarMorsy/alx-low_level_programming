@@ -18,6 +18,8 @@ char *_strncat(char *dest, char *src, int n)
 			destLen++;
 		while (src[scrLen] != '\0')
 			scrLen++;
+		if (n > scrLen)
+			n = scrLen;
 		for (i = 0; i <= n; i++)
 		{
 			if (i == n)

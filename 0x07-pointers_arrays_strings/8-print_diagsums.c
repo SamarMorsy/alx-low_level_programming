@@ -10,8 +10,8 @@ void print_diagsums(int *a, int size)
 	int sum1;
 	int sum2;
 
-	center = (size % 2) + 1;
-	sum1 = a[0, 0] + center + a[size - 1, size - 1];
-	sum2 = a[0, size - 1] + center + a[size - 1, 0];
+	center = ((size * size) % 2) + 1;
+	sum1 = a[0][0] + a[center][center] + a[size - 1][size - 1];
+	sum2 = a[0][size - 1] + a[center][center] + a[size - 1][0];
 	printf("%d, %d", sum1, sum2);
 }

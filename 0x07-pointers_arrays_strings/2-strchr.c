@@ -18,5 +18,7 @@ char *_strchr(char *s, char c)
 			i++;
 		}
 	}
+	else
+		return (s[i]);
 	return (NULL);
 }

@@ -19,6 +19,6 @@ char *_strchr(char *s, char c)
 		}
 	}
 	else
-		return (s[i]);
+		return (&s[i]);
 	return (NULL);
 }

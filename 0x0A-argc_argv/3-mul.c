@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 		int i;
 
 		i = atoi(argv[1]) * atoi(argv[2]);
-		pritnf("%d\n", i);
+		printf("%d\n", i);
 	}
 	else
 	{

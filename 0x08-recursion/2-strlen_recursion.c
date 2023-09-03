@@ -1,17 +1,17 @@
 #include "main.h"
 /**
  * _strlen_recursion - return str lenght
- * @s:input
+ * @s:iunput
  * Return: l
 */
 int _strlen_recursion(char *s)
 {
-	int l = 0;
-
-	if (*s != '\0')
+	if (*s == '\0')
 	{
-		l++;
-		_strlen_recursion(++s);
+		return (0);
 	}
-	return (l);
+	else
+	{
+		return (1 + _strlen_recursion(s + 1));
+	}
 }

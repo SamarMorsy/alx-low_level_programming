@@ -6,6 +6,8 @@
 */
 char *_strdup(char *str)
 {
+	if (*str == '\0')
+		return (NULL);
 	char *p;
 	int l = 0;
 	int i = 0;
@@ -16,7 +18,7 @@ char *_strdup(char *str)
 		i++;
 	}
 	p = malloc(l);
-	if (*str == '\0' || p == 0)
+	if (p == 0)
 		return (NULL);
 	for (i = 0; i < l; i++)
 	{

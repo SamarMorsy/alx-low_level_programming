@@ -9,7 +9,7 @@ int str_len(char *s)
 	int i;
 	int len = 0;
 
-	for (i = 0, s[i] != '\0'; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
 		len++;
 	}
@@ -25,17 +25,16 @@ size_t print_list(const list_t *h)
 {
 	list_t *current = h;
 	size_t s = 0;
-	int str_len = str_len(current->str);
+	int str_ln = str_len(current->str);
 
 	while (current != NULL)
 	{
 		if (current->str == NULL)
 			printf("[0] (nil)\n");
 		else
-			printf("[%d] %s", str_len, current->str);
-		currenrt = current->next;
+			printf("[%d] %s\n", str_ln, current->str);
+		current = current->next;
 		s++;
 	}
 	return (s);
 }
-

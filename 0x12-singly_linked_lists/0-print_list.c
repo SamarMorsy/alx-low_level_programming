@@ -23,7 +23,7 @@ int str_len(char *s)
 */
 size_t print_list(const list_t *h)
 {
-	list_t *current = h;
+	const list_t *current = h;
 	size_t s = 0;
 	int str_ln = str_len(current->str);
 

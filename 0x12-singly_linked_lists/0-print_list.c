@@ -1,4 +1,6 @@
+#include <stdio.h>
 #include "lists.h"
+
 /**
  * str_len - functoin
  * @s: pointer to strung

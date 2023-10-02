@@ -1,4 +1,4 @@
-#include <stdio.g>
+#include <stdio.h>
 /**
  * main - entry point
  * @argc: number of args

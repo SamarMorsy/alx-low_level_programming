@@ -1,8 +1,8 @@
 #include "main.h"
-/*
+/**
  * free_grid - fun
- * @grid: input
- * @height: input
+ * @grid: hh
+ * @height: ff
 */
 void free_grid(int **grid, int height)
 {

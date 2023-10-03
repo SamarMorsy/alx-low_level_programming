@@ -7,16 +7,16 @@
 */
 char *str_concat(char *s1, char *s2)
 {
-	if (!s1)
-		s1 = "";
-	if (!s2)
-		s2 = "";
 	int i = 0;
 	int j = 0;
 	int l_s1 = 0;
 	int l_s2 = 0;
 	char *con;
 
+	if (!s1)
+		s1 = "";
+	if (!s2)
+		s2 = "";
 	while (s1[i] != '\0')
 	{
 		l_s1++;

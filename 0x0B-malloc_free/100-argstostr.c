@@ -27,7 +27,7 @@ char *argstostr(int ac, char **av)
 	{
 		strcpy(strAll + position, av[i]);
 		position += strlen(av[i]);
-		result[position] = '\n';
+		strAll[position] = '\n';
 		position++;
 	}
 	strAll[total_length] = '\0';

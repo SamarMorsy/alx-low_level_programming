@@ -26,7 +26,7 @@ char **strtow(char *str)
 		return (NULL);
 	while ((tocken = strtok(remainder, " ")) != NULL)
 	{
-		result[i] = strdup(token);
+		result[i] = strdup(tocken);
 		i++;
 		remainder = NULL;
 	}

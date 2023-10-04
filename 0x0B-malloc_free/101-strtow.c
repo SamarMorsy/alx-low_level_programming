@@ -24,7 +24,7 @@ char **strtow(char *str)
 	result = malloc(nWords * sizeof(char *) + 1);
 	if (result == NULL)
 		return (NULL);
-	while ((token = strtok(remainder, " ")) != NULL)
+	while ((tocken = strtok(remainder, " ")) != NULL)
 	{
 		result[i] = strdup(token);
 		i++;

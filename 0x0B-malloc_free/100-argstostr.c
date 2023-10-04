@@ -22,7 +22,7 @@ char *argstostr(int ac, char **av)
 	strAll = malloc((sizeof(char) * total_length) + 1);
 	if (!strAll)
 		return (NULL);
-	for (int i = 0; i < ac; i++) 
+	for (i = 0; i < ac; i++) 
 	{
 		strcpy(strAll + position, av[i]);
 		position += strlen(av[i]);

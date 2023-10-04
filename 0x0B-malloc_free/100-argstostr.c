@@ -30,7 +30,7 @@ char *argstostr(int ac, char **av)
 		result[position] = '\n';
 		position++;
 	}
-	result[total_length] = '\0';
+	strAll[total_length] = '\0';
 	return (strAll);
 }
 

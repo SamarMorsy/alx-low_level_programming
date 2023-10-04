@@ -21,6 +21,7 @@ char *argstostr(int ac, char **av)
 {	
 	int total_length = 0;
 	char *strAll;
+	int i;
 
 	if (ac == 0 || av == NULL) 
 	{

@@ -1,17 +1,5 @@
 #include "main.h"
-/**
- * _strLen - i
- * @s: j
- * Return: 0
-*/
-int _strLen(char *s)
-{
-	int i = 0;
-	int len = 0;
-	while (s[i] != '\0')
-		len++;
-	return (len);
-}
+
 /**
  * argstostr - fun
  * @ac: count	

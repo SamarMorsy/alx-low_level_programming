@@ -19,7 +19,7 @@ char **strtow(char *str)
 	while (tocken != NULL)
 	{
 		nWords++;
-		token = strtok(NULL, " ");
+		tocken = strtok(NULL, " ");
 	}
 	result = malloc(nWords * sizeof(char *) + 1);
 	if (result == NULL)

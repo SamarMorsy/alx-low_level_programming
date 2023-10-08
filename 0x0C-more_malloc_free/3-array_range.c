@@ -3,9 +3,8 @@
 /**
   *array_range - creates an array of integers.
   *@min: minimum value.
-  *@max: maximum value.
-  *
-  *Return:
+  *@max: maximum
+  *Return:khk
   */
 int *array_range(int min, int max)
 {
